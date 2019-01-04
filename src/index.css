@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+
+html, body, #root, div {
+  font-family: "Arimo", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

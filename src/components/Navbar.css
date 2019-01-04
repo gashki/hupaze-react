@@ -1,0 +1,30 @@
+.navbar {
+    height: 80px;
+    position: absolute;
+    text-align: center;
+}
+
+.navbar-side {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.navbar-logo {
+    display: inline-block;
+    height: 40px;
+    margin-left: 40px;
+    pointer-events: none;
+    vertical-align: middle;
+}
+
+.navbar-link {
+    color: #63C6CE;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+}

@@ -1,0 +1,12 @@
+.background {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.background-side {
+  display: inline-block;
+  width: 50%;
+}

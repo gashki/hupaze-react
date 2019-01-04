@@ -1,0 +1,13 @@
+.store-link {
+    display: inline-block;
+    margin: 0 24px 0 0;
+    text-decoration: none;
+}
+
+.store-image {
+    display: inline-block;
+    height: 50px;
+    pointer-events: none;
+    vertical-align: middle;
+    width: auto;
+}
