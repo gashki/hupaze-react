@@ -1,0 +1,185 @@
+.details {
+  align-items: center;
+  background: #f7f5f7;
+  display: flex;
+}
+
+.details > div {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.details h2 {
+  color: #202020;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.details p {
+  color: #606060;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1.25em 0 2em;
+  max-width: 600px;
+  padding: 0;
+}
+
+.details-stores {
+  align-items: center;
+  display: flex;
+}
+
+.app-store {
+  display: inline-block;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.app-store:last-child {
+  margin-right: 0;
+}
+
+.app-store img {
+  display: block;
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (min-width: 400px) {
+  .details > div {
+    padding: 28px;
+  }
+
+  .details h2 {
+    font-size: 1.75rem;
+  }
+
+  .app-store {
+    margin-right: 24px;
+  }
+
+  .app-store img {
+    height: 42px;
+  }
+}
+
+@media (min-width: 480px) {
+  .details > div {
+    padding: 40px;
+  }
+
+  .details h2 {
+    font-size: 2rem;
+  }
+
+  .details p {
+    font-size: 1.125rem;
+  }
+
+  .app-store {
+    margin-right: 28px;
+  }
+
+  .app-store img {
+    height: 44px;
+  }
+}
+
+@media (min-width: 600px) {
+  .details > div {
+    padding: 60px;
+  }
+
+  .details h2 {
+    font-size: 2.25rem;
+  }
+
+  .details p {
+    font-size: 1.25rem;
+  }
+
+  .app-store img {
+    height: 50px;
+  }
+}
+
+@media (min-width: 800px) {
+  .details > div {
+    padding: 28px;
+  }
+
+  .details h2 {
+    font-size: 1.75rem;
+  }
+
+  .details p {
+    font-size: 1rem;
+  }
+
+  .app-store {
+    margin-right: 24px;
+  }
+
+  .app-store img {
+    height: 42px;
+  }
+}
+
+@media (min-width: 960px) {
+  .details > div {
+    padding: 40px;
+  }
+
+  .details h2 {
+    font-size: 2rem;
+  }
+
+  .details p {
+    font-size: 1.125rem;
+  }
+
+  .app-store {
+    margin-right: 28px;
+  }
+
+  .app-store img {
+    height: 44px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .details h2 {
+    font-size: 2.25rem;
+  }
+
+  .details p {
+    font-size: 1.25rem;
+  }
+
+  .app-store img {
+    height: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .details > div {
+    padding: 60px;
+  }
+
+  .details h2 {
+    font-size: 2.5rem;
+  }
+
+  .details p {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .details > div {
+    padding: 80px;
+  }
+}
