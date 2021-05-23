@@ -1,15 +1,18 @@
 import React from "react";
 import "./App.css";
-import Background from "./components/Background";
-import Content from "./components/Content";
 
-function App() {
+import Details from "./components/Details";
+import Devices from "./components/Devices";
+import Navbar from "./components/Navbar";
+
+const App = () => {
   return (
-    <div style={{ minHeight: "600px", minWidth: "1280px", position: "relative", textAlign: "center" }}>
-      <Background />
-      <Content />
+    <div className="app">
+      <Navbar />
+      <Devices />
+      <Details />
     </div>
   );
-}
+};
 
 export default App;
