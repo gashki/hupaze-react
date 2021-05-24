@@ -2,7 +2,7 @@ import React from "react";
 import "./Details.css";
 
 const Details = () => (
-  <div className="content details">
+  <div className="details">
     <div>
       <h2>Play <span style={{ color: "#0ac9a1" }}>Credit Card Roulette</span>.</h2>
       <h2>Find Out <span style={{ color: "#00a6b2" }}>Who Pays</span>.</h2>

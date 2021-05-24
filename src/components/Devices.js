@@ -2,7 +2,7 @@ import React from "react";
 import "./Devices.css";
 
 const Devices = () => (
-  <div className="content devices">
+  <div className="devices">
     <img className="unselectable" src="./images/mobile.png" alt="Mobile screenshots" />
   </div>
 );

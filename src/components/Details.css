@@ -2,10 +2,12 @@
   align-items: center;
   background: #f7f5f7;
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .details > div {
-  overflow: hidden;
   padding: 20px;
 }
 
@@ -23,7 +25,7 @@
   font-size: 1rem;
   line-height: 1.5;
   margin: 1.25em 0 2em;
-  max-width: 600px;
+  max-width: 720px;
   padding: 0;
 }
 
@@ -107,6 +109,10 @@
 }
 
 @media (min-width: 800px) {
+  .details {
+    flex-basis: 0;
+  }
+
   .details > div {
     padding: 28px;
   }
@@ -171,10 +177,6 @@
 
   .details h2 {
     font-size: 2.5rem;
-  }
-
-  .details p {
-    max-width: 720px;
   }
 }
 
